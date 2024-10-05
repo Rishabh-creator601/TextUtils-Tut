@@ -12,7 +12,7 @@ let router =  createBrowserRouter(
             <Route path="contacts" element={<Contacts />}></Route>
 
         </Route>
-    )
+    ),{basename:"/textutils-react"}
 )
 
 
